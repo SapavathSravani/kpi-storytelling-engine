@@ -1,0 +1,14 @@
+{
+  "roles": {
+    "Executive": {
+      "row_filters": {},
+      "allowed_columns": ["kpi_id", "historical_series", "drivers", "confidence_score"],
+      "narrative_detail": "high_level_strategic"
+    },
+    "Operations_Analyst": {
+      "row_filters": {},
+      "allowed_columns": ["kpi_id", "historical_series", "drivers", "confidence_score", "raw_tickets", "sql_lineage"],
+      "narrative_detail": "root_cause_granular"
+    }
+  }
+}
