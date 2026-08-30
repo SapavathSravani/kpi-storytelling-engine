@@ -121,7 +121,7 @@ streamlit run app.py
 
 ---
 
-## 6.Demonstrated Test Scenarios
+## 6. Demonstrated Test Scenarios 
 The engine includes pre-configured execution scripts to test real-world scenarios:
 Multi-Factor KPI Drop Scenario: Demonstrates an 8.4% regional revenue drop isolated into specific price shifts, supply delay impacts, and marketing fatigue.
 Low-Confidence Abstention Scenario: Flags contradictory CSAT/spend vectors, presents alternative hypotheses, and abstains from recommending concrete strategic shifts until data is validated.
