@@ -1,0 +1,24 @@
+{
+  "kpis": [
+    {
+      "id": "revenue_regional",
+      "name": "Regional Net Revenue",
+      "grain": "Daily",
+      "refresh_cadence_hours": 24,
+      "calculation": "SUM(sales_amount) - SUM(discounts)",
+      "drivers": ["price_index", "order_volume", "marketing_spend", "csat_sentiment"],
+      "sensitivities": {
+        "confidentiality_level": "Restricted",
+        "allowed_roles": ["Executive", "Operations_Analyst"]
+      }
+    },
+    {
+      "id": "new_product_sales",
+      "name": "Sparse History Product Sales",
+      "grain": "Daily",
+      "refresh_cadence_hours": 24,
+      "sparse_history_flag": true,
+      "minimum_data_points_required": 30
+    }
+  ]
+}
