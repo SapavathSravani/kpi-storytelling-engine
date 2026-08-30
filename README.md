@@ -2,13 +2,13 @@
 
 **Team Name:** Alpha123  
 **Team Leader:** Sravani Sapavath (IIT Kharagpur)  
-**Track:** BusinessIntelligence.ai | Accenture Innovation Challenge 2026[cite: 1]  
+**Track:** BusinessIntelligence.ai | Accenture Innovation Challenge 2026
 
 ---
 
 # 1. Executive Summary & Architecture Overview
 
-Traditional Business Intelligence (BI) dashboards present static quantitative changes without explaining root causes or identifying specific interventions[cite: 1]. The **KPI Intelligence-to-Action Engine** bridges this insight gap by unifying structured metrics (daily sales, weekly marketing spend) with unstructured context (monthly CSAT text, support logs)[cite: 1]. 
+Traditional Business Intelligence (BI) dashboards present static quantitative changes without explaining root causes or identifying specific interventions. The **KPI Intelligence-to-Action Engine** bridges this insight gap by unifying structured metrics (daily sales, weekly marketing spend) with unstructured context (monthly CSAT text, support logs)
 
 The system treats **deterministic statistics as the source of quantitative truth** and reserves **LLMs strictly for intent parsing and narrative synthesis**.
 
