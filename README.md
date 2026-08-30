@@ -15,21 +15,21 @@ The system treats **deterministic statistics as the source of quantitative truth
 ---
 
 ## System Architecture Pipeline
-text
+
 +-----------------------------------------------------------------------------------+
-|                               **1. DATA INGESTION**                                  |
-|  Daily Sales DB (SQL)  |  Weekly Marketing (CSV)  |  Monthly CSAT Tickets (Parquet) |
+|                               **1. DATA INGESTION**                               |
+| Daily Sales DB (SQL)  |  Weekly Marketing (CSV)  |  Monthly CSAT Tickets (Parquet)|
 +-----------------------------------------------------------------------------------+
                                          |
                                          v
 +-----------------------------------------------------------------------------------+
-|                       **2. GOVERNED SEMANTIC CONTRACT & RBAC**                   |
+|                       **2. GOVERNED SEMANTIC CONTRACT & RBAC**                    |
 |  - Enforces Data Lineage, SLA Freshness Check, Column/Row-Level Entitlements      |
 +-----------------------------------------------------------------------------------+
                                          |
                                          v
 +-----------------------------------------------------------------------------------+
-|                         **3.DETERMINISTIC ANALYTICS ENGINE**                         |
+|                         **3.DETERMINISTIC ANALYTICS ENGINE**                      |
 |  - Anomaly Detection: Dynamic SPC Control Limits & Z-scores                       |
 |  - Driver Ranking: Dynamic Contribution & Variance Decomposition                  |
 |  - Cold-Start/Sparse History: Empirical Bayesian Shrinkage                        |
@@ -44,14 +44,14 @@ text
                                          |
                                          v
 +-----------------------------------------------------------------------------------+
-|                        **5. LLM NARRATIVE & ACTION SYNTHESIS**                        |
+|                        **5. LLM NARRATIVE & ACTION SYNTHESIS**                    |
 |  - Persona-Specific Views (Executive vs. Operations Analyst)                      |
 |  - Structured Recommendations: Driver -> Lever -> Action -> Impact -> Owner       |
 +-----------------------------------------------------------------------------------+
                                          |
                                          v
 +-----------------------------------------------------------------------------------+
-|                       **6. TELEMETRY & FEEDBACK LEARNING LOOP**                      |
+|                       **6. TELEMETRY & FEEDBACK LEARNING LOOP**                   |
 |  - Live Tracking: Token Usage, Latency ($/Insight Costing)                        |
 |  - Captures Analyst Ratings to Retrain Driver Weights                             |
 +-----------------------------------------------------------------------------------+
